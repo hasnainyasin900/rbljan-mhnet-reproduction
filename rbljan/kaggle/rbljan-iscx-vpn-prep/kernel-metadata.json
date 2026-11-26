@@ -1,0 +1,15 @@
+{
+  "id": "hasnainyasin900/rbljan-iscx-vpn-prep",
+  "title": "RBLJAN ISCX-VPN Preprocessing (CPU)",
+  "code_file": "rbljan-iscx-vpn-prep.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "mdmirazulhasan/iscxvpn2016-vpn-nonvpn"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

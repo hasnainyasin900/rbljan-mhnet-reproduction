@@ -1,0 +1,15 @@
+{
+  "id": "hasnainyasin900/rbljan-iscx-vpn-gpu-train-smoke-test",
+  "title": "RBLJAN ISCX-VPN GPU Train (50 epochs)",
+  "code_file": "rbljan-iscx-vpn-gpu-train.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "hasnainyasin900/rbljan-iscx-vpn-pkl"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

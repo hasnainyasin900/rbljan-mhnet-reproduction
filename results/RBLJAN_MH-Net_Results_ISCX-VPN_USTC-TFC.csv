@@ -1,0 +1,7 @@
+Model,Dataset,Level,Test size,Accuracy,Precision (macro),F1-score (macro)
+RBLJAN,ISCX-VPN,Packet,21248 packets,0.9688,0.9701,0.9700
+RBLJAN,USTC-TFC,Packet,19968 test packets,0.9608,0.9608,0.9610
+MH-Net,ISCX-VPN,Flow,172 flows,0.9128,0.9206,0.9163
+MH-Net,ISCX-VPN,Packet,1964 packet-graphs,0.8931,0.8855,0.8943
+MH-Net,USTC-TFC,Flow,290 flows,0.9828,0.9773,0.9777
+MH-Net,USTC-TFC,Packet,1403 packet-graphs,0.9380,0.9335,0.9333

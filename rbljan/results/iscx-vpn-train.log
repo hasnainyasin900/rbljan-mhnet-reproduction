@@ -1,0 +1,398 @@
+[11:10-14:50:48] run_rbljan.py start: epochs=50 smoke=False out_dir=/kaggle/working/out
+[11:10-14:50:48] CUDA_VISIBLE_DEVICES=0
+[11:10-14:50:48] output dirs ready: /kaggle/working/out/checkpoints and /kaggle/working/out/model/ISCX-VPN
+[11:10-14:50:48] loaded cached position-encoding matrix
+[11:10-14:50:48] model built: 158050 params
+[11:10-14:50:54] CUDA: True device 0 (count 1)
+[11:10-14:51:52] data ready: 753 train batches, 83 test batches (batch 256)
+[11:10-14:51:52] epoch 1 start
+[11:10-14:51:58]   batch 0/753 (6s)
+[11:10-14:55:18] epoch 1 train done in 206.1s, avg loss 1.2688
+[11:10-14:55:26] epoch 1 eval done in 8.5s
+[11:10-14:55:26]   test accuracy increased to 0.8401
+[11:10-14:55:26]   test f1 increased to 0.8404
+[11:10-14:55:26]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-145526_best_epoch_1.pt
+[11:10-14:55:26] epoch 1 ok: train loss 1.2688, test acc 0.8401 (best 0.8401), test f1 0.8404 (best 0.8404), checkpoint /kaggle/working/out/checkpoints/epoch_001.pt
+[11:10-14:55:26]   per-class f1: {'audio': 0.6762, 'chat': 0.8121, 'file': 0.8464, 'mail': 0.8454, 'streaming': 0.8144, 'voip': 0.7204, 'vpn-audio': 0.8739, 'vpn-chat': 0.8607, 'vpn-file': 0.899, 'vpn-mail': 0.9158, 'vpn-streaming': 0.9912, 'vpn-voip': 0.8292}
+[11:10-14:55:26] epoch 2 start
+[11:10-14:55:27]   batch 0/753 (215s)
+[11:10-14:58:47] epoch 2 train done in 201.0s, avg loss 0.9950
+[11:10-14:58:56] epoch 2 eval done in 8.4s
+[11:10-14:58:56]   test accuracy increased to 0.9003
+[11:10-14:58:56]   test f1 increased to 0.9009
+[11:10-14:58:56]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-145856_best_epoch_2.pt
+[11:10-14:58:56] epoch 2 ok: train loss 0.9950, test acc 0.9003 (best 0.9003), test f1 0.9009 (best 0.9009), checkpoint /kaggle/working/out/checkpoints/epoch_002.pt
+[11:10-14:58:56]   per-class f1: {'audio': 0.7617, 'chat': 0.8543, 'file': 0.8484, 'mail': 0.8849, 'streaming': 0.822, 'voip': 0.9768, 'vpn-audio': 0.8868, 'vpn-chat': 0.9118, 'vpn-file': 0.9402, 'vpn-mail': 0.9398, 'vpn-streaming': 0.9929, 'vpn-voip': 0.9909}
+[11:10-14:58:56] epoch 3 start
+[11:10-14:58:56]   batch 0/753 (424s)
+[11:10-15:02:17] epoch 3 train done in 201.4s, avg loss 0.9315
+[11:10-15:02:26] epoch 3 eval done in 8.5s
+[11:10-15:02:26]   test accuracy increased to 0.9171
+[11:10-15:02:26]   test f1 increased to 0.9168
+[11:10-15:02:26]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-150226_best_epoch_3.pt
+[11:10-15:02:26] epoch 3 ok: train loss 0.9315, test acc 0.9171 (best 0.9171), test f1 0.9168 (best 0.9168), checkpoint /kaggle/working/out/checkpoints/epoch_003.pt
+[11:10-15:02:26]   per-class f1: {'audio': 0.7887, 'chat': 0.8816, 'file': 0.8952, 'mail': 0.8967, 'streaming': 0.8164, 'voip': 0.9879, 'vpn-audio': 0.9045, 'vpn-chat': 0.9308, 'vpn-file': 0.9542, 'vpn-mail': 0.9563, 'vpn-streaming': 0.9939, 'vpn-voip': 0.9952}
+[11:10-15:02:26] epoch 4 start
+[11:10-15:02:26]   batch 0/753 (634s)
+[11:10-15:05:48] epoch 4 train done in 202.1s, avg loss 0.9032
+[11:10-15:05:56] epoch 4 eval done in 8.5s
+[11:10-15:05:56]   test accuracy increased to 0.9231
+[11:10-15:05:56]   test f1 increased to 0.9230
+[11:10-15:05:56]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-150556_best_epoch_4.pt
+[11:10-15:05:57] epoch 4 ok: train loss 0.9032, test acc 0.9231 (best 0.9231), test f1 0.9230 (best 0.9230), checkpoint /kaggle/working/out/checkpoints/epoch_004.pt
+[11:10-15:05:57]   per-class f1: {'audio': 0.7921, 'chat': 0.8794, 'file': 0.905, 'mail': 0.9079, 'streaming': 0.8324, 'voip': 0.9902, 'vpn-audio': 0.9103, 'vpn-chat': 0.9339, 'vpn-file': 0.9631, 'vpn-mail': 0.9714, 'vpn-streaming': 0.9937, 'vpn-voip': 0.9965}
+[11:10-15:05:57] epoch 5 start
+[11:10-15:05:57]   batch 0/753 (845s)
+[11:10-15:09:17] epoch 5 train done in 200.7s, avg loss 0.8841
+[11:10-15:09:26] epoch 5 eval done in 8.5s
+[11:10-15:09:26]   test accuracy increased to 0.9260
+[11:10-15:09:26]   test f1 increased to 0.9268
+[11:10-15:09:26]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-150926_best_epoch_5.pt
+[11:10-15:09:26] epoch 5 ok: train loss 0.8841, test acc 0.9260 (best 0.9260), test f1 0.9268 (best 0.9268), checkpoint /kaggle/working/out/checkpoints/epoch_005.pt
+[11:10-15:09:26]   per-class f1: {'audio': 0.7878, 'chat': 0.8869, 'file': 0.9242, 'mail': 0.9179, 'streaming': 0.8277, 'voip': 0.9912, 'vpn-audio': 0.9106, 'vpn-chat': 0.9426, 'vpn-file': 0.9708, 'vpn-mail': 0.971, 'vpn-streaming': 0.9934, 'vpn-voip': 0.9975}
+[11:10-15:09:26] epoch 6 start
+[11:10-15:09:26]   batch 0/753 (1054s)
+[11:10-15:12:48] epoch 6 train done in 202.1s, avg loss 0.8729
+[11:10-15:12:56] epoch 6 eval done in 8.6s
+[11:10-15:12:56]   test accuracy increased to 0.9356
+[11:10-15:12:56]   test f1 increased to 0.9358
+[11:10-15:12:56]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-151256_best_epoch_6.pt
+[11:10-15:12:56] epoch 6 ok: train loss 0.8729, test acc 0.9356 (best 0.9356), test f1 0.9358 (best 0.9358), checkpoint /kaggle/working/out/checkpoints/epoch_006.pt
+[11:10-15:12:56]   per-class f1: {'audio': 0.8056, 'chat': 0.9058, 'file': 0.9426, 'mail': 0.9197, 'streaming': 0.8567, 'voip': 0.9917, 'vpn-audio': 0.9226, 'vpn-chat': 0.9488, 'vpn-file': 0.9729, 'vpn-mail': 0.9734, 'vpn-streaming': 0.9932, 'vpn-voip': 0.997}
+[11:10-15:12:56] epoch 7 start
+[11:10-15:12:57]   batch 0/753 (1265s)
+[11:10-15:16:19] epoch 7 train done in 202.3s, avg loss 0.8641
+[11:10-15:16:27] epoch 7 eval done in 8.5s
+[11:10-15:16:27]   test accuracy increased to 0.9384
+[11:10-15:16:27]   test f1 increased to 0.9392
+[11:10-15:16:27]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-151627_best_epoch_7.pt
+[11:10-15:16:27] epoch 7 ok: train loss 0.8641, test acc 0.9384 (best 0.9384), test f1 0.9392 (best 0.9392), checkpoint /kaggle/working/out/checkpoints/epoch_007.pt
+[11:10-15:16:27]   per-class f1: {'audio': 0.813, 'chat': 0.9185, 'file': 0.9455, 'mail': 0.9304, 'streaming': 0.86, 'voip': 0.9916, 'vpn-audio': 0.9197, 'vpn-chat': 0.9502, 'vpn-file': 0.9763, 'vpn-mail': 0.9761, 'vpn-streaming': 0.9929, 'vpn-voip': 0.9967}
+[11:10-15:16:27] epoch 8 start
+[11:10-15:16:27]   batch 0/753 (1475s)
+[11:10-15:19:49] epoch 8 train done in 202.2s, avg loss 0.8578
+[11:10-15:19:58] epoch 8 eval done in 8.5s
+[11:10-15:19:58]   test accuracy increased to 0.9399
+[11:10-15:19:58]   test f1 increased to 0.9406
+[11:10-15:19:58]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-151958_best_epoch_8.pt
+[11:10-15:19:58] epoch 8 ok: train loss 0.8578, test acc 0.9399 (best 0.9399), test f1 0.9406 (best 0.9406), checkpoint /kaggle/working/out/checkpoints/epoch_008.pt
+[11:10-15:19:58]   per-class f1: {'audio': 0.8202, 'chat': 0.9173, 'file': 0.9405, 'mail': 0.9345, 'streaming': 0.8652, 'voip': 0.9899, 'vpn-audio': 0.9222, 'vpn-chat': 0.9517, 'vpn-file': 0.9774, 'vpn-mail': 0.9794, 'vpn-streaming': 0.9929, 'vpn-voip': 0.9955}
+[11:10-15:19:58] epoch 9 start
+[11:10-15:19:58]   batch 0/753 (1686s)
+[11:10-15:23:20] epoch 9 train done in 202.1s, avg loss 0.8534
+[11:10-15:23:29] epoch 9 eval done in 8.5s
+[11:10-15:23:29]   test accuracy increased to 0.9427
+[11:10-15:23:29]   test f1 increased to 0.9439
+[11:10-15:23:29]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-152329_best_epoch_9.pt
+[11:10-15:23:29] epoch 9 ok: train loss 0.8534, test acc 0.9427 (best 0.9427), test f1 0.9439 (best 0.9439), checkpoint /kaggle/working/out/checkpoints/epoch_009.pt
+[11:10-15:23:29]   per-class f1: {'audio': 0.8275, 'chat': 0.9295, 'file': 0.95, 'mail': 0.9389, 'streaming': 0.8711, 'voip': 0.9914, 'vpn-audio': 0.9163, 'vpn-chat': 0.9548, 'vpn-file': 0.9778, 'vpn-mail': 0.9795, 'vpn-streaming': 0.9934, 'vpn-voip': 0.9962}
+[11:10-15:23:29] epoch 10 start
+[11:10-15:23:29]   batch 0/753 (1897s)
+[11:10-15:26:51] epoch 10 train done in 202.1s, avg loss 0.8442
+[11:10-15:26:59] epoch 10 eval done in 8.5s
+[11:10-15:26:59]   test accuracy increased to 0.9463
+[11:10-15:26:59]   test f1 increased to 0.9471
+[11:10-15:26:59]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-152659_best_epoch_10.pt
+[11:10-15:26:59] epoch 10 ok: train loss 0.8442, test acc 0.9463 (best 0.9463), test f1 0.9471 (best 0.9471), checkpoint /kaggle/working/out/checkpoints/epoch_010.pt
+[11:10-15:26:59]   per-class f1: {'audio': 0.8381, 'chat': 0.9364, 'file': 0.9509, 'mail': 0.9494, 'streaming': 0.8818, 'voip': 0.9878, 'vpn-audio': 0.9234, 'vpn-chat': 0.9557, 'vpn-file': 0.9794, 'vpn-mail': 0.9766, 'vpn-streaming': 0.9939, 'vpn-voip': 0.9922}
+[11:10-15:26:59] epoch 11 start
+[11:10-15:26:59]   batch 0/753 (2107s)
+[11:10-15:30:21] epoch 11 train done in 201.8s, avg loss 0.8415
+[11:10-15:30:29] epoch 11 eval done in 8.5s
+[11:10-15:30:29]   test accuracy increased to 0.9482
+[11:10-15:30:29]   test f1 increased to 0.9488
+[11:10-15:30:29]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-153029_best_epoch_11.pt
+[11:10-15:30:29] epoch 11 ok: train loss 0.8415, test acc 0.9482 (best 0.9482), test f1 0.9488 (best 0.9488), checkpoint /kaggle/working/out/checkpoints/epoch_011.pt
+[11:10-15:30:29]   per-class f1: {'audio': 0.8446, 'chat': 0.9279, 'file': 0.9457, 'mail': 0.9477, 'streaming': 0.8848, 'voip': 0.9917, 'vpn-audio': 0.9312, 'vpn-chat': 0.9596, 'vpn-file': 0.9788, 'vpn-mail': 0.9846, 'vpn-streaming': 0.9937, 'vpn-voip': 0.996}
+[11:10-15:30:29] epoch 12 start
+[11:10-15:30:30]   batch 0/753 (2318s)
+[11:10-15:33:51] epoch 12 train done in 201.8s, avg loss 0.8380
+[11:10-15:34:00] epoch 12 eval done in 8.5s
+[11:10-15:34:00]   test accuracy increased to 0.9500
+[11:10-15:34:00]   test f1 increased to 0.9505
+[11:10-15:34:00]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-153400_best_epoch_12.pt
+[11:10-15:34:00] epoch 12 ok: train loss 0.8380, test acc 0.9500 (best 0.9500), test f1 0.9505 (best 0.9505), checkpoint /kaggle/working/out/checkpoints/epoch_012.pt
+[11:10-15:34:00]   per-class f1: {'audio': 0.851, 'chat': 0.9304, 'file': 0.9538, 'mail': 0.9471, 'streaming': 0.8911, 'voip': 0.9914, 'vpn-audio': 0.9287, 'vpn-chat': 0.9604, 'vpn-file': 0.9804, 'vpn-mail': 0.9809, 'vpn-streaming': 0.9947, 'vpn-voip': 0.9962}
+[11:10-15:34:00] epoch 13 start
+[11:10-15:34:00]   batch 0/753 (2528s)
+[11:10-15:37:22] epoch 13 train done in 201.9s, avg loss 0.8340
+[11:10-15:37:30] epoch 13 eval done in 8.5s
+[11:10-15:37:30]   test accuracy increased to 0.9526
+[11:10-15:37:30]   test f1 increased to 0.9536
+[11:10-15:37:30]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-153730_best_epoch_13.pt
+[11:10-15:37:30] epoch 13 ok: train loss 0.8340, test acc 0.9526 (best 0.9526), test f1 0.9536 (best 0.9536), checkpoint /kaggle/working/out/checkpoints/epoch_013.pt
+[11:10-15:37:30]   per-class f1: {'audio': 0.8547, 'chat': 0.941, 'file': 0.9571, 'mail': 0.9561, 'streaming': 0.8933, 'voip': 0.9929, 'vpn-audio': 0.9267, 'vpn-chat': 0.9615, 'vpn-file': 0.9815, 'vpn-mail': 0.9859, 'vpn-streaming': 0.9957, 'vpn-voip': 0.9972}
+[11:10-15:37:30] epoch 14 start
+[11:10-15:37:30]   batch 0/753 (2738s)
+[11:10-15:40:52] epoch 14 train done in 201.9s, avg loss 0.8289
+[11:10-15:41:01] epoch 14 eval done in 8.5s
+[11:10-15:41:01]   test accuracy increased to 0.9530
+[11:10-15:41:01]   test f1 increased to 0.9539
+[11:10-15:41:01]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-154101_best_epoch_14.pt
+[11:10-15:41:01] epoch 14 ok: train loss 0.8289, test acc 0.9530 (best 0.9530), test f1 0.9539 (best 0.9539), checkpoint /kaggle/working/out/checkpoints/epoch_014.pt
+[11:10-15:41:01]   per-class f1: {'audio': 0.8547, 'chat': 0.9384, 'file': 0.9585, 'mail': 0.9532, 'streaming': 0.8938, 'voip': 0.9914, 'vpn-audio': 0.9333, 'vpn-chat': 0.9663, 'vpn-file': 0.9794, 'vpn-mail': 0.9868, 'vpn-streaming': 0.9957, 'vpn-voip': 0.9955}
+[11:10-15:41:01] epoch 15 start
+[11:10-15:41:01]   batch 0/753 (2949s)
+[11:10-15:44:23] epoch 15 train done in 202.0s, avg loss 0.8270
+[11:10-15:44:31] epoch 15 eval done in 8.5s
+[11:10-15:44:31]   test accuracy increased to 0.9542
+[11:10-15:44:31]   test f1 increased to 0.9552
+[11:10-15:44:31]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-154431_best_epoch_15.pt
+[11:10-15:44:31] epoch 15 ok: train loss 0.8270, test acc 0.9542 (best 0.9542), test f1 0.9552 (best 0.9552), checkpoint /kaggle/working/out/checkpoints/epoch_015.pt
+[11:10-15:44:31]   per-class f1: {'audio': 0.8537, 'chat': 0.9423, 'file': 0.9596, 'mail': 0.9546, 'streaming': 0.8941, 'voip': 0.9916, 'vpn-audio': 0.9337, 'vpn-chat': 0.9706, 'vpn-file': 0.9821, 'vpn-mail': 0.989, 'vpn-streaming': 0.9957, 'vpn-voip': 0.9957}
+[11:10-15:44:31] epoch 16 start
+[11:10-15:44:31]   batch 0/753 (3159s)
+[11:10-15:47:53] epoch 16 train done in 201.8s, avg loss 0.8225
+[11:10-15:48:01] epoch 16 eval done in 8.5s
+[11:10-15:48:01]   test accuracy increased to 0.9560
+[11:10-15:48:01]   test f1 increased to 0.9569
+[11:10-15:48:01]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-154801_best_epoch_16.pt
+[11:10-15:48:01] epoch 16 ok: train loss 0.8225, test acc 0.9560 (best 0.9560), test f1 0.9569 (best 0.9569), checkpoint /kaggle/working/out/checkpoints/epoch_016.pt
+[11:10-15:48:01]   per-class f1: {'audio': 0.863, 'chat': 0.9418, 'file': 0.9607, 'mail': 0.9565, 'streaming': 0.8976, 'voip': 0.9927, 'vpn-audio': 0.9363, 'vpn-chat': 0.9687, 'vpn-file': 0.9833, 'vpn-mail': 0.9886, 'vpn-streaming': 0.9957, 'vpn-voip': 0.9975}
+[11:10-15:48:01] epoch 17 start
+[11:10-15:48:02]   batch 0/753 (3370s)
+[11:10-15:51:23] epoch 17 train done in 201.6s, avg loss 0.8243
+[11:10-15:51:32] epoch 17 eval done in 8.5s
+[11:10-15:51:32]   test accuracy increased to 0.9563
+[11:10-15:51:32]   test f1 increased to 0.9572
+[11:10-15:51:32]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-155132_best_epoch_17.pt
+[11:10-15:51:32] epoch 17 ok: train loss 0.8243, test acc 0.9563 (best 0.9563), test f1 0.9572 (best 0.9572), checkpoint /kaggle/working/out/checkpoints/epoch_017.pt
+[11:10-15:51:32]   per-class f1: {'audio': 0.8664, 'chat': 0.9447, 'file': 0.9606, 'mail': 0.9557, 'streaming': 0.9022, 'voip': 0.9929, 'vpn-audio': 0.9332, 'vpn-chat': 0.9666, 'vpn-file': 0.9823, 'vpn-mail': 0.9886, 'vpn-streaming': 0.9957, 'vpn-voip': 0.9977}
+[11:10-15:51:32] epoch 18 start
+[11:10-15:51:32]   batch 0/753 (3580s)
+[11:10-15:54:53] epoch 18 train done in 201.2s, avg loss 0.8177
+[11:10-15:55:01] epoch 18 eval done in 8.5s
+[11:10-15:55:01]   test accuracy increased to 0.9570
+[11:10-15:55:01]   test f1 increased to 0.9582
+[11:10-15:55:01]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-155501_best_epoch_18.pt
+[11:10-15:55:01] epoch 18 ok: train loss 0.8177, test acc 0.9570 (best 0.9570), test f1 0.9582 (best 0.9582), checkpoint /kaggle/working/out/checkpoints/epoch_018.pt
+[11:10-15:55:01]   per-class f1: {'audio': 0.8652, 'chat': 0.9487, 'file': 0.9627, 'mail': 0.9585, 'streaming': 0.8984, 'voip': 0.9929, 'vpn-audio': 0.9344, 'vpn-chat': 0.9717, 'vpn-file': 0.9838, 'vpn-mail': 0.9886, 'vpn-streaming': 0.996, 'vpn-voip': 0.9972}
+[11:10-15:55:01] epoch 19 start
+[11:10-15:55:01]   batch 0/753 (3789s)
+[11:10-15:58:22] epoch 19 train done in 200.8s, avg loss 0.8173
+[11:10-15:58:31] epoch 19 eval done in 8.5s
+[11:10-15:58:31]   test accuracy increased to 0.9591
+[11:10-15:58:31]   test f1 increased to 0.9601
+[11:10-15:58:31]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-155831_best_epoch_19.pt
+[11:10-15:58:31] epoch 19 ok: train loss 0.8173, test acc 0.9591 (best 0.9591), test f1 0.9601 (best 0.9601), checkpoint /kaggle/working/out/checkpoints/epoch_019.pt
+[11:10-15:58:31]   per-class f1: {'audio': 0.8697, 'chat': 0.951, 'file': 0.9637, 'mail': 0.9629, 'streaming': 0.9045, 'voip': 0.9929, 'vpn-audio': 0.9402, 'vpn-chat': 0.9711, 'vpn-file': 0.9831, 'vpn-mail': 0.9895, 'vpn-streaming': 0.996, 'vpn-voip': 0.997}
+[11:10-15:58:31] epoch 20 start
+[11:10-15:58:31]   batch 0/753 (3999s)
+[11:10-16:01:51] epoch 20 train done in 200.8s, avg loss 0.8167
+[11:10-16:02:00] epoch 20 eval done in 8.5s
+[11:10-16:02:00] epoch 20 ok: train loss 0.8167, test acc 0.9579 (best 0.9591), test f1 0.9592 (best 0.9601), checkpoint /kaggle/working/out/checkpoints/epoch_020.pt
+[11:10-16:02:00]   per-class f1: {'audio': 0.8667, 'chat': 0.9567, 'file': 0.9645, 'mail': 0.9617, 'streaming': 0.9017, 'voip': 0.9942, 'vpn-audio': 0.934, 'vpn-chat': 0.9694, 'vpn-file': 0.9797, 'vpn-mail': 0.9878, 'vpn-streaming': 0.996, 'vpn-voip': 0.9985}
+[11:10-16:02:00] epoch 21 start
+[11:10-16:02:00]   batch 0/753 (4208s)
+[11:10-16:05:21] epoch 21 train done in 200.8s, avg loss 0.8127
+[11:10-16:05:29] epoch 21 eval done in 8.5s
+[11:10-16:05:29] epoch 21 ok: train loss 0.8127, test acc 0.9585 (best 0.9591), test f1 0.9593 (best 0.9601), checkpoint /kaggle/working/out/checkpoints/epoch_021.pt
+[11:10-16:05:29]   per-class f1: {'audio': 0.8639, 'chat': 0.9485, 'file': 0.9606, 'mail': 0.9609, 'streaming': 0.903, 'voip': 0.9929, 'vpn-audio': 0.941, 'vpn-chat': 0.9736, 'vpn-file': 0.9843, 'vpn-mail': 0.9899, 'vpn-streaming': 0.9967, 'vpn-voip': 0.9967}
+[11:10-16:05:29] epoch 22 start
+[11:10-16:05:29]   batch 0/753 (4417s)
+[11:10-16:08:50] epoch 22 train done in 200.7s, avg loss 0.8116
+[11:10-16:08:58] epoch 22 eval done in 8.5s
+[11:10-16:08:58]   test accuracy increased to 0.9607
+[11:10-16:08:58]   test f1 increased to 0.9616
+[11:10-16:08:58]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-160858_best_epoch_22.pt
+[11:10-16:08:58] epoch 22 ok: train loss 0.8116, test acc 0.9607 (best 0.9607), test f1 0.9616 (best 0.9616), checkpoint /kaggle/working/out/checkpoints/epoch_022.pt
+[11:10-16:08:58]   per-class f1: {'audio': 0.8745, 'chat': 0.9562, 'file': 0.9637, 'mail': 0.9635, 'streaming': 0.9112, 'voip': 0.9939, 'vpn-audio': 0.9369, 'vpn-chat': 0.9701, 'vpn-file': 0.9853, 'vpn-mail': 0.989, 'vpn-streaming': 0.9967, 'vpn-voip': 0.998}
+[11:10-16:08:58] epoch 23 start
+[11:10-16:08:58]   batch 0/753 (4626s)
+[11:10-16:12:19] epoch 23 train done in 200.6s, avg loss 0.8105
+[11:10-16:12:27] epoch 23 eval done in 8.5s
+[11:10-16:12:27]   test accuracy increased to 0.9614
+[11:10-16:12:27]   test f1 increased to 0.9625
+[11:10-16:12:27]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-161227_best_epoch_23.pt
+[11:10-16:12:27] epoch 23 ok: train loss 0.8105, test acc 0.9614 (best 0.9614), test f1 0.9625 (best 0.9625), checkpoint /kaggle/working/out/checkpoints/epoch_023.pt
+[11:10-16:12:27]   per-class f1: {'audio': 0.8733, 'chat': 0.9588, 'file': 0.9677, 'mail': 0.9655, 'streaming': 0.9114, 'voip': 0.993, 'vpn-audio': 0.9388, 'vpn-chat': 0.9723, 'vpn-file': 0.9843, 'vpn-mail': 0.9904, 'vpn-streaming': 0.9975, 'vpn-voip': 0.9972}
+[11:10-16:12:27] epoch 24 start
+[11:10-16:12:28]   batch 0/753 (4836s)
+[11:10-16:15:49] epoch 24 train done in 201.9s, avg loss 0.8093
+[11:10-16:15:58] epoch 24 eval done in 8.5s
+[11:10-16:15:58] epoch 24 ok: train loss 0.8093, test acc 0.9602 (best 0.9614), test f1 0.9613 (best 0.9625), checkpoint /kaggle/working/out/checkpoints/epoch_024.pt
+[11:10-16:15:58]   per-class f1: {'audio': 0.8735, 'chat': 0.957, 'file': 0.9652, 'mail': 0.964, 'streaming': 0.9113, 'voip': 0.9934, 'vpn-audio': 0.9358, 'vpn-chat': 0.9675, 'vpn-file': 0.9834, 'vpn-mail': 0.9912, 'vpn-streaming': 0.9957, 'vpn-voip': 0.9977}
+[11:10-16:15:58] epoch 25 start
+[11:10-16:15:58]   batch 0/753 (5046s)
+[11:10-16:19:20] epoch 25 train done in 201.9s, avg loss 0.8104
+[11:10-16:19:28] epoch 25 eval done in 8.5s
+[11:10-16:19:28]   test accuracy increased to 0.9621
+[11:10-16:19:28]   test f1 increased to 0.9632
+[11:10-16:19:28]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-161928_best_epoch_25.pt
+[11:10-16:19:28] epoch 25 ok: train loss 0.8104, test acc 0.9621 (best 0.9621), test f1 0.9632 (best 0.9632), checkpoint /kaggle/working/out/checkpoints/epoch_025.pt
+[11:10-16:19:28]   per-class f1: {'audio': 0.8789, 'chat': 0.9569, 'file': 0.9661, 'mail': 0.9661, 'streaming': 0.917, 'voip': 0.9937, 'vpn-audio': 0.9389, 'vpn-chat': 0.9721, 'vpn-file': 0.9821, 'vpn-mail': 0.9908, 'vpn-streaming': 0.9972, 'vpn-voip': 0.9982}
+[11:10-16:19:28] epoch 26 start
+[11:10-16:19:28]   batch 0/753 (5256s)
+[11:10-16:22:50] epoch 26 train done in 201.7s, avg loss 0.8043
+[11:10-16:22:58] epoch 26 eval done in 8.5s
+[11:10-16:22:58] epoch 26 ok: train loss 0.8043, test acc 0.9607 (best 0.9621), test f1 0.9622 (best 0.9632), checkpoint /kaggle/working/out/checkpoints/epoch_026.pt
+[11:10-16:22:58]   per-class f1: {'audio': 0.8667, 'chat': 0.9593, 'file': 0.967, 'mail': 0.9667, 'streaming': 0.915, 'voip': 0.9939, 'vpn-audio': 0.9311, 'vpn-chat': 0.9757, 'vpn-file': 0.9853, 'vpn-mail': 0.9913, 'vpn-streaming': 0.9967, 'vpn-voip': 0.9977}
+[11:10-16:22:58] epoch 27 start
+[11:10-16:22:59]   batch 0/753 (5467s)
+[11:10-16:26:20] epoch 27 train done in 201.9s, avg loss 0.8045
+[11:10-16:26:29] epoch 27 eval done in 8.5s
+[11:10-16:26:29] epoch 27 ok: train loss 0.8045, test acc 0.9607 (best 0.9621), test f1 0.9614 (best 0.9632), checkpoint /kaggle/working/out/checkpoints/epoch_027.pt
+[11:10-16:26:29]   per-class f1: {'audio': 0.8682, 'chat': 0.9471, 'file': 0.9647, 'mail': 0.9588, 'streaming': 0.9134, 'voip': 0.9942, 'vpn-audio': 0.9411, 'vpn-chat': 0.9756, 'vpn-file': 0.9849, 'vpn-mail': 0.9943, 'vpn-streaming': 0.9972, 'vpn-voip': 0.9972}
+[11:10-16:26:29] epoch 28 start
+[11:10-16:26:29]   batch 0/753 (5677s)
+[11:10-16:29:50] epoch 28 train done in 201.5s, avg loss 0.8018
+[11:10-16:29:59] epoch 28 eval done in 8.5s
+[11:10-16:29:59]   test accuracy increased to 0.9624
+[11:10-16:29:59]   test f1 increased to 0.9632
+[11:10-16:29:59]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-162959_best_epoch_28.pt
+[11:10-16:29:59] epoch 28 ok: train loss 0.8018, test acc 0.9624 (best 0.9624), test f1 0.9632 (best 0.9632), checkpoint /kaggle/working/out/checkpoints/epoch_028.pt
+[11:10-16:29:59]   per-class f1: {'audio': 0.8774, 'chat': 0.9512, 'file': 0.9674, 'mail': 0.964, 'streaming': 0.9157, 'voip': 0.9939, 'vpn-audio': 0.9412, 'vpn-chat': 0.9756, 'vpn-file': 0.9849, 'vpn-mail': 0.9934, 'vpn-streaming': 0.9965, 'vpn-voip': 0.9977}
+[11:10-16:29:59] epoch 29 start
+[11:10-16:29:59]   batch 0/753 (5887s)
+[11:10-16:33:21] epoch 29 train done in 201.7s, avg loss 0.8044
+[11:10-16:33:29] epoch 29 eval done in 8.5s
+[11:10-16:33:29]   test accuracy increased to 0.9636
+[11:10-16:33:29]   test f1 increased to 0.9646
+[11:10-16:33:29]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-163329_best_epoch_29.pt
+[11:10-16:33:29] epoch 29 ok: train loss 0.8044, test acc 0.9636 (best 0.9636), test f1 0.9646 (best 0.9646), checkpoint /kaggle/working/out/checkpoints/epoch_029.pt
+[11:10-16:33:29]   per-class f1: {'audio': 0.8758, 'chat': 0.9584, 'file': 0.9683, 'mail': 0.9669, 'streaming': 0.9168, 'voip': 0.9949, 'vpn-audio': 0.9417, 'vpn-chat': 0.9788, 'vpn-file': 0.9851, 'vpn-mail': 0.9929, 'vpn-streaming': 0.997, 'vpn-voip': 0.9982}
+[11:10-16:33:29] epoch 30 start
+[11:10-16:33:29]   batch 0/753 (6097s)
+[11:10-16:36:51] epoch 30 train done in 201.8s, avg loss 0.7991
+[11:10-16:36:59] epoch 30 eval done in 8.5s
+[11:10-16:36:59]   test accuracy increased to 0.9639
+[11:10-16:36:59]   test f1 increased to 0.9648
+[11:10-16:36:59]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-163659_best_epoch_30.pt
+[11:10-16:36:59] epoch 30 ok: train loss 0.7991, test acc 0.9639 (best 0.9639), test f1 0.9648 (best 0.9648), checkpoint /kaggle/working/out/checkpoints/epoch_030.pt
+[11:10-16:36:59]   per-class f1: {'audio': 0.8843, 'chat': 0.9595, 'file': 0.9687, 'mail': 0.9627, 'streaming': 0.9191, 'voip': 0.9944, 'vpn-audio': 0.9403, 'vpn-chat': 0.9751, 'vpn-file': 0.9841, 'vpn-mail': 0.9947, 'vpn-streaming': 0.997, 'vpn-voip': 0.998}
+[11:10-16:36:59] epoch 31 start
+[11:10-16:37:00]   batch 0/753 (6308s)
+[11:10-16:40:22] epoch 31 train done in 202.2s, avg loss 0.7968
+[11:10-16:40:30] epoch 31 eval done in 8.5s
+[11:10-16:40:30] epoch 31 ok: train loss 0.7968, test acc 0.9631 (best 0.9639), test f1 0.9641 (best 0.9648), checkpoint /kaggle/working/out/checkpoints/epoch_031.pt
+[11:10-16:40:30]   per-class f1: {'audio': 0.8762, 'chat': 0.9531, 'file': 0.9699, 'mail': 0.9632, 'streaming': 0.9181, 'voip': 0.996, 'vpn-audio': 0.9392, 'vpn-chat': 0.9784, 'vpn-file': 0.9844, 'vpn-mail': 0.9947, 'vpn-streaming': 0.9967, 'vpn-voip': 0.999}
+[11:10-16:40:30] epoch 32 start
+[11:10-16:40:30]   batch 0/753 (6518s)
+[11:10-16:43:52] epoch 32 train done in 202.2s, avg loss 0.7965
+[11:10-16:44:01] epoch 32 eval done in 8.5s
+[11:10-16:44:01] epoch 32 ok: train loss 0.7965, test acc 0.9613 (best 0.9639), test f1 0.9613 (best 0.9648), checkpoint /kaggle/working/out/checkpoints/epoch_032.pt
+[11:10-16:44:01]   per-class f1: {'audio': 0.8802, 'chat': 0.9368, 'file': 0.9711, 'mail': 0.9386, 'streaming': 0.9195, 'voip': 0.9947, 'vpn-audio': 0.9397, 'vpn-chat': 0.979, 'vpn-file': 0.9868, 'vpn-mail': 0.9943, 'vpn-streaming': 0.9972, 'vpn-voip': 0.9982}
+[11:10-16:44:01] epoch 33 start
+[11:10-16:44:01]   batch 0/753 (6729s)
+[11:10-16:47:23] epoch 33 train done in 202.3s, avg loss 0.7936
+[11:10-16:47:32] epoch 33 eval done in 8.5s
+[11:10-16:47:32]   test accuracy increased to 0.9660
+[11:10-16:47:32]   test f1 increased to 0.9671
+[11:10-16:47:32]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-164732_best_epoch_33.pt
+[11:10-16:47:32] epoch 33 ok: train loss 0.7936, test acc 0.9660 (best 0.9660), test f1 0.9671 (best 0.9671), checkpoint /kaggle/working/out/checkpoints/epoch_033.pt
+[11:10-16:47:32]   per-class f1: {'audio': 0.8827, 'chat': 0.965, 'file': 0.972, 'mail': 0.9693, 'streaming': 0.9213, 'voip': 0.9965, 'vpn-audio': 0.9407, 'vpn-chat': 0.9791, 'vpn-file': 0.9871, 'vpn-mail': 0.9961, 'vpn-streaming': 0.9965, 'vpn-voip': 0.9995}
+[11:10-16:47:32] epoch 34 start
+[11:10-16:47:32]   batch 0/753 (6940s)
+[11:10-16:50:54] epoch 34 train done in 202.1s, avg loss 0.7936
+[11:10-16:51:02] epoch 34 eval done in 8.5s
+[11:10-16:51:02] epoch 34 ok: train loss 0.7936, test acc 0.9638 (best 0.9660), test f1 0.9650 (best 0.9671), checkpoint /kaggle/working/out/checkpoints/epoch_034.pt
+[11:10-16:51:02]   per-class f1: {'audio': 0.8828, 'chat': 0.9621, 'file': 0.9699, 'mail': 0.9673, 'streaming': 0.9203, 'voip': 0.9947, 'vpn-audio': 0.9328, 'vpn-chat': 0.9742, 'vpn-file': 0.9871, 'vpn-mail': 0.9943, 'vpn-streaming': 0.9967, 'vpn-voip': 0.998}
+[11:10-16:51:02] epoch 35 start
+[11:10-16:51:03]   batch 0/753 (7151s)
+[11:10-16:54:25] epoch 35 train done in 202.1s, avg loss 0.7926
+[11:10-16:54:33] epoch 35 eval done in 8.5s
+[11:10-16:54:33]   test accuracy increased to 0.9663
+[11:10-16:54:33]   test f1 increased to 0.9673
+[11:10-16:54:33]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-165433_best_epoch_35.pt
+[11:10-16:54:33] epoch 35 ok: train loss 0.7926, test acc 0.9663 (best 0.9663), test f1 0.9673 (best 0.9673), checkpoint /kaggle/working/out/checkpoints/epoch_035.pt
+[11:10-16:54:33]   per-class f1: {'audio': 0.8865, 'chat': 0.962, 'file': 0.9709, 'mail': 0.9665, 'streaming': 0.9251, 'voip': 0.995, 'vpn-audio': 0.9431, 'vpn-chat': 0.9793, 'vpn-file': 0.9856, 'vpn-mail': 0.9969, 'vpn-streaming': 0.9975, 'vpn-voip': 0.9987}
+[11:10-16:54:33] epoch 36 start
+[11:10-16:54:33]   batch 0/753 (7361s)
+[11:10-16:57:55] epoch 36 train done in 202.2s, avg loss 0.7908
+[11:10-16:58:04] epoch 36 eval done in 8.5s
+[11:10-16:58:04] epoch 36 ok: train loss 0.7908, test acc 0.9660 (best 0.9663), test f1 0.9670 (best 0.9673), checkpoint /kaggle/working/out/checkpoints/epoch_036.pt
+[11:10-16:58:04]   per-class f1: {'audio': 0.8826, 'chat': 0.9657, 'file': 0.9695, 'mail': 0.9693, 'streaming': 0.9226, 'voip': 0.9962, 'vpn-audio': 0.9434, 'vpn-chat': 0.9765, 'vpn-file': 0.9851, 'vpn-mail': 0.9961, 'vpn-streaming': 0.9972, 'vpn-voip': 0.9995}
+[11:10-16:58:04] epoch 37 start
+[11:10-16:58:04]   batch 0/753 (7572s)
+[11:10-17:01:26] epoch 37 train done in 202.3s, avg loss 0.7939
+[11:10-17:01:35] epoch 37 eval done in 8.5s
+[11:10-17:01:35] epoch 37 ok: train loss 0.7939, test acc 0.9648 (best 0.9663), test f1 0.9659 (best 0.9673), checkpoint /kaggle/working/out/checkpoints/epoch_037.pt
+[11:10-17:01:35]   per-class f1: {'audio': 0.8812, 'chat': 0.9628, 'file': 0.9726, 'mail': 0.9708, 'streaming': 0.9223, 'voip': 0.9957, 'vpn-audio': 0.9354, 'vpn-chat': 0.9731, 'vpn-file': 0.9854, 'vpn-mail': 0.9956, 'vpn-streaming': 0.9972, 'vpn-voip': 0.999}
+[11:10-17:01:35] epoch 38 start
+[11:10-17:01:35]   batch 0/753 (7783s)
+[11:10-17:04:57] epoch 38 train done in 202.3s, avg loss 0.7921
+[11:10-17:05:05] epoch 38 eval done in 8.5s
+[11:10-17:05:05] epoch 38 ok: train loss 0.7921, test acc 0.9656 (best 0.9663), test f1 0.9668 (best 0.9673), checkpoint /kaggle/working/out/checkpoints/epoch_038.pt
+[11:10-17:05:05]   per-class f1: {'audio': 0.8854, 'chat': 0.9667, 'file': 0.9719, 'mail': 0.9677, 'streaming': 0.926, 'voip': 0.9957, 'vpn-audio': 0.9368, 'vpn-chat': 0.975, 'vpn-file': 0.9844, 'vpn-mail': 0.9956, 'vpn-streaming': 0.9967, 'vpn-voip': 0.9992}
+[11:10-17:05:05] epoch 39 start
+[11:10-17:05:06]   batch 0/753 (7994s)
+[11:10-17:08:28] epoch 39 train done in 202.3s, avg loss 0.7893
+[11:10-17:08:36] epoch 39 eval done in 8.5s
+[11:10-17:08:36]   test accuracy increased to 0.9672
+[11:10-17:08:36]   test f1 increased to 0.9683
+[11:10-17:08:36]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-170836_best_epoch_39.pt
+[11:10-17:08:36] epoch 39 ok: train loss 0.7893, test acc 0.9672 (best 0.9672), test f1 0.9683 (best 0.9683), checkpoint /kaggle/working/out/checkpoints/epoch_039.pt
+[11:10-17:08:36]   per-class f1: {'audio': 0.8876, 'chat': 0.9652, 'file': 0.9734, 'mail': 0.9719, 'streaming': 0.927, 'voip': 0.9952, 'vpn-audio': 0.9425, 'vpn-chat': 0.9787, 'vpn-file': 0.9859, 'vpn-mail': 0.9974, 'vpn-streaming': 0.9967, 'vpn-voip': 0.9987}
+[11:10-17:08:36] epoch 40 start
+[11:10-17:08:36]   batch 0/753 (8204s)
+[11:10-17:11:59] epoch 40 train done in 202.4s, avg loss 0.7919
+[11:10-17:12:07] epoch 40 eval done in 8.5s
+[11:10-17:12:07] epoch 40 ok: train loss 0.7919, test acc 0.9652 (best 0.9672), test f1 0.9664 (best 0.9683), checkpoint /kaggle/working/out/checkpoints/epoch_040.pt
+[11:10-17:12:07]   per-class f1: {'audio': 0.875, 'chat': 0.9658, 'file': 0.9729, 'mail': 0.9703, 'streaming': 0.919, 'voip': 0.9955, 'vpn-audio': 0.9403, 'vpn-chat': 0.9787, 'vpn-file': 0.9863, 'vpn-mail': 0.9969, 'vpn-streaming': 0.997, 'vpn-voip': 0.999}
+[11:10-17:12:07] epoch 41 start
+[11:10-17:12:07]   batch 0/753 (8415s)
+[11:10-17:15:30] epoch 41 train done in 202.2s, avg loss 0.7897
+[11:10-17:15:38] epoch 41 eval done in 8.5s
+[11:10-17:15:38] epoch 41 ok: train loss 0.7897, test acc 0.9664 (best 0.9672), test f1 0.9675 (best 0.9683), checkpoint /kaggle/working/out/checkpoints/epoch_041.pt
+[11:10-17:15:38]   per-class f1: {'audio': 0.8856, 'chat': 0.965, 'file': 0.9708, 'mail': 0.971, 'streaming': 0.9251, 'voip': 0.996, 'vpn-audio': 0.9432, 'vpn-chat': 0.9786, 'vpn-file': 0.9846, 'vpn-mail': 0.9939, 'vpn-streaming': 0.997, 'vpn-voip': 0.9992}
+[11:10-17:15:38] epoch 42 start
+[11:10-17:15:38]   batch 0/753 (8626s)
+[11:10-17:19:00] epoch 42 train done in 202.2s, avg loss 0.7885
+[11:10-17:19:09] epoch 42 eval done in 8.5s
+[11:10-17:19:09] epoch 42 ok: train loss 0.7885, test acc 0.9666 (best 0.9672), test f1 0.9679 (best 0.9683), checkpoint /kaggle/working/out/checkpoints/epoch_042.pt
+[11:10-17:19:09]   per-class f1: {'audio': 0.8785, 'chat': 0.969, 'file': 0.9749, 'mail': 0.9741, 'streaming': 0.92, 'voip': 0.9957, 'vpn-audio': 0.9429, 'vpn-chat': 0.9795, 'vpn-file': 0.9861, 'vpn-mail': 0.9965, 'vpn-streaming': 0.9975, 'vpn-voip': 0.9995}
+[11:10-17:19:09] epoch 43 start
+[11:10-17:19:09]   batch 0/753 (8837s)
+[11:10-17:22:31] epoch 43 train done in 202.4s, avg loss 0.7895
+[11:10-17:22:40] epoch 43 eval done in 8.5s
+[11:10-17:22:40]   test accuracy increased to 0.9680
+[11:10-17:22:40]   test f1 increased to 0.9691
+[11:10-17:22:40]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-172240_best_epoch_43.pt
+[11:10-17:22:40] epoch 43 ok: train loss 0.7895, test acc 0.9680 (best 0.9680), test f1 0.9691 (best 0.9691), checkpoint /kaggle/working/out/checkpoints/epoch_043.pt
+[11:10-17:22:40]   per-class f1: {'audio': 0.8917, 'chat': 0.9673, 'file': 0.9746, 'mail': 0.9702, 'streaming': 0.929, 'voip': 0.9957, 'vpn-audio': 0.942, 'vpn-chat': 0.9804, 'vpn-file': 0.9866, 'vpn-mail': 0.9961, 'vpn-streaming': 0.9962, 'vpn-voip': 0.9992}
+[11:10-17:22:40] epoch 44 start
+[11:10-17:22:40]   batch 0/753 (9048s)
+[11:10-17:26:02] epoch 44 train done in 202.2s, avg loss 0.7857
+[11:10-17:26:10] epoch 44 eval done in 8.5s
+[11:10-17:26:10] epoch 44 ok: train loss 0.7857, test acc 0.9653 (best 0.9680), test f1 0.9663 (best 0.9691), checkpoint /kaggle/working/out/checkpoints/epoch_044.pt
+[11:10-17:26:10]   per-class f1: {'audio': 0.88, 'chat': 0.9614, 'file': 0.97, 'mail': 0.9697, 'streaming': 0.9213, 'voip': 0.9947, 'vpn-audio': 0.9443, 'vpn-chat': 0.9762, 'vpn-file': 0.9859, 'vpn-mail': 0.9961, 'vpn-streaming': 0.9975, 'vpn-voip': 0.9985}
+[11:10-17:26:10] epoch 45 start
+[11:10-17:26:11]   batch 0/753 (9259s)
+[11:10-17:29:33] epoch 45 train done in 202.2s, avg loss 0.7887
+[11:10-17:29:41] epoch 45 eval done in 8.5s
+[11:10-17:29:41]   test accuracy increased to 0.9688
+[11:10-17:29:41]   test f1 increased to 0.9700
+[11:10-17:29:41]   best model saved to /kaggle/working/out/model/ISCX-VPN/20261110-172941_best_epoch_45.pt
+[11:10-17:29:41] epoch 45 ok: train loss 0.7887, test acc 0.9688 (best 0.9688), test f1 0.9700 (best 0.9700), checkpoint /kaggle/working/out/checkpoints/epoch_045.pt
+[11:10-17:29:41]   per-class f1: {'audio': 0.8885, 'chat': 0.9693, 'file': 0.9731, 'mail': 0.9768, 'streaming': 0.9288, 'voip': 0.996, 'vpn-audio': 0.9456, 'vpn-chat': 0.9826, 'vpn-file': 0.9864, 'vpn-mail': 0.9956, 'vpn-streaming': 0.9977, 'vpn-voip': 0.9995}
+[11:10-17:29:41] epoch 46 start
+[11:10-17:29:41]   batch 0/753 (9469s)
+[11:10-17:33:03] epoch 46 train done in 202.3s, avg loss 0.7831
+[11:10-17:33:12] epoch 46 eval done in 8.5s
+[11:10-17:33:12] epoch 46 ok: train loss 0.7831, test acc 0.9655 (best 0.9688), test f1 0.9666 (best 0.9700), checkpoint /kaggle/working/out/checkpoints/epoch_046.pt
+[11:10-17:33:12]   per-class f1: {'audio': 0.8783, 'chat': 0.9664, 'file': 0.9717, 'mail': 0.9727, 'streaming': 0.9219, 'voip': 0.9957, 'vpn-audio': 0.9398, 'vpn-chat': 0.9763, 'vpn-file': 0.9859, 'vpn-mail': 0.9935, 'vpn-streaming': 0.9975, 'vpn-voip': 0.9995}
+[11:10-17:33:12] epoch 47 start
+[11:10-17:33:12]   batch 0/753 (9680s)
+[11:10-17:36:35] epoch 47 train done in 202.7s, avg loss 0.7883
+[11:10-17:36:43] epoch 47 eval done in 8.5s
+[11:10-17:36:43] epoch 47 ok: train loss 0.7883, test acc 0.9676 (best 0.9688), test f1 0.9689 (best 0.9700), checkpoint /kaggle/working/out/checkpoints/epoch_047.pt
+[11:10-17:36:43]   per-class f1: {'audio': 0.884, 'chat': 0.9701, 'file': 0.9747, 'mail': 0.9753, 'streaming': 0.9241, 'voip': 0.9952, 'vpn-audio': 0.9428, 'vpn-chat': 0.9789, 'vpn-file': 0.9879, 'vpn-mail': 0.9965, 'vpn-streaming': 0.9977, 'vpn-voip': 0.9992}
+[11:10-17:36:43] epoch 48 start
+[11:10-17:36:43]   batch 0/753 (9891s)
+[11:10-17:40:05] epoch 48 train done in 202.3s, avg loss 0.7852
+[11:10-17:40:14] epoch 48 eval done in 8.5s
+[11:10-17:40:14] epoch 48 ok: train loss 0.7852, test acc 0.9683 (best 0.9688), test f1 0.9693 (best 0.9700), checkpoint /kaggle/working/out/checkpoints/epoch_048.pt
+[11:10-17:40:14]   per-class f1: {'audio': 0.8919, 'chat': 0.9655, 'file': 0.9752, 'mail': 0.9724, 'streaming': 0.9288, 'voip': 0.9952, 'vpn-audio': 0.9439, 'vpn-chat': 0.9796, 'vpn-file': 0.9876, 'vpn-mail': 0.9952, 'vpn-streaming': 0.9972, 'vpn-voip': 0.9995}
+[11:10-17:40:14] epoch 49 start
+[11:10-17:40:14]   batch 0/753 (10102s)
+[11:10-17:43:36] epoch 49 train done in 202.4s, avg loss 0.7866
+[11:10-17:43:45] epoch 49 eval done in 8.5s
+[11:10-17:43:45] epoch 49 ok: train loss 0.7866, test acc 0.9681 (best 0.9688), test f1 0.9693 (best 0.9700), checkpoint /kaggle/working/out/checkpoints/epoch_049.pt
+[11:10-17:43:45]   per-class f1: {'audio': 0.8844, 'chat': 0.9687, 'file': 0.978, 'mail': 0.9742, 'streaming': 0.9228, 'voip': 0.996, 'vpn-audio': 0.9436, 'vpn-chat': 0.9823, 'vpn-file': 0.9878, 'vpn-mail': 0.9961, 'vpn-streaming': 0.998, 'vpn-voip': 0.9995}
+[11:10-17:43:45] epoch 50 start
+[11:10-17:43:45]   batch 0/753 (10313s)
+[11:10-17:47:07] epoch 50 train done in 202.5s, avg loss 0.7846
+[11:10-17:47:16] epoch 50 eval done in 8.5s
+[11:10-17:47:16] epoch 50 ok: train loss 0.7846, test acc 0.9687 (best 0.9688), test f1 0.9696 (best 0.9700), checkpoint /kaggle/working/out/checkpoints/epoch_050.pt
+[11:10-17:47:16]   per-class f1: {'audio': 0.8917, 'chat': 0.9646, 'file': 0.9769, 'mail': 0.9711, 'streaming': 0.929, 'voip': 0.9955, 'vpn-audio': 0.9453, 'vpn-chat': 0.982, 'vpn-file': 0.9876, 'vpn-mail': 0.9939, 'vpn-streaming': 0.998, 'vpn-voip': 0.9995}
+[11:10-17:47:16] TRAINING DONE in 10523.9s (175.4 min); best epoch 45, acc 0.9688, macro F1 0.9700
